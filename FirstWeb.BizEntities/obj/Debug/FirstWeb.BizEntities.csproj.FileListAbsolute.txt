@@ -1,0 +1,6 @@
+C:\Users\ANIRBANGANGULY\source\repos\FirstWebApp\FirstWeb.BizEntities\bin\Debug\FirstWeb.BizEntities.dll
+C:\Users\ANIRBANGANGULY\source\repos\FirstWebApp\FirstWeb.BizEntities\bin\Debug\FirstWeb.BizEntities.pdb
+C:\Users\ANIRBANGANGULY\source\repos\FirstWebApp\FirstWeb.BizEntities\obj\Debug\FirstWeb.BizEntities.csprojAssemblyReference.cache
+C:\Users\ANIRBANGANGULY\source\repos\FirstWebApp\FirstWeb.BizEntities\obj\Debug\FirstWeb.BizEntities.csproj.CoreCompileInputs.cache
+C:\Users\ANIRBANGANGULY\source\repos\FirstWebApp\FirstWeb.BizEntities\obj\Debug\FirstWeb.BizEntities.dll
+C:\Users\ANIRBANGANGULY\source\repos\FirstWebApp\FirstWeb.BizEntities\obj\Debug\FirstWeb.BizEntities.pdb

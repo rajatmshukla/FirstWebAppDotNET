@@ -1,0 +1,12 @@
+C:\Users\ANIRBANGANGULY\source\repos\FirstWebApp\MyFirstWeb.Data\bin\Debug\MyFirstWeb.Data.dll
+C:\Users\ANIRBANGANGULY\source\repos\FirstWebApp\MyFirstWeb.Data\bin\Debug\MyFirstWeb.Data.pdb
+C:\Users\ANIRBANGANGULY\source\repos\FirstWebApp\MyFirstWeb.Data\obj\Debug\MyFirstWeb.Data.csprojAssemblyReference.cache
+C:\Users\ANIRBANGANGULY\source\repos\FirstWebApp\MyFirstWeb.Data\obj\Debug\MyFirstWeb.Data.csproj.CoreCompileInputs.cache
+C:\Users\ANIRBANGANGULY\source\repos\FirstWebApp\MyFirstWeb.Data\obj\Debug\MyFirstWeb.Data.dll
+C:\Users\ANIRBANGANGULY\source\repos\FirstWebApp\MyFirstWeb.Data\obj\Debug\MyFirstWeb.Data.pdb
+C:\Users\RajatShukla\Downloads\FirstWebApp\MyFirstWeb.Data\bin\Debug\MyFirstWeb.Data.dll
+C:\Users\RajatShukla\Downloads\FirstWebApp\MyFirstWeb.Data\bin\Debug\MyFirstWeb.Data.pdb
+C:\Users\RajatShukla\Downloads\FirstWebApp\MyFirstWeb.Data\obj\Debug\MyFirstWeb.Data.csprojAssemblyReference.cache
+C:\Users\RajatShukla\Downloads\FirstWebApp\MyFirstWeb.Data\obj\Debug\MyFirstWeb.Data.csproj.CoreCompileInputs.cache
+C:\Users\RajatShukla\Downloads\FirstWebApp\MyFirstWeb.Data\obj\Debug\MyFirstWeb.Data.dll
+C:\Users\RajatShukla\Downloads\FirstWebApp\MyFirstWeb.Data\obj\Debug\MyFirstWeb.Data.pdb
