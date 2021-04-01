@@ -51,8 +51,8 @@ namespace FirstWebApp
             int.TryParse(TxtBoxDept.Text.ToString(), out deptno);
             try
             {
-                icount = int.Parse(DBHelper.ExecuteScalar("select count(*) from Emp where EmpID = '" + empid + "'").ToString());
-                idept = int.Parse(DBHelper.ExecuteScalar("select count(*) from dept where deptno = '" + deptno + "'").ToString());
+                icount = int.Parse(DBHelper.ExecuteScalar("SELECT [dbo].[EmpFind]('" + TxtBoxEmpId.Text + "')").ToString());
+                idept = int.Parse(DBHelper.ExecuteScalar("SELECT [dbo].[DeptFind]('" + TxtBoxDept.Text + "')").ToString());
 
                 if (icount > 0)
                 {
@@ -97,7 +97,6 @@ namespace FirstWebApp
 
         protected void btnDelete_Click(object sender, EventArgs e)
         {
-            //Deleting the record
             int empid = 0;
             int icount = 0;
             DBHelper.defaultConnectionString = System.Configuration.ConfigurationManager.AppSettings["FirstWebDBConn"];
