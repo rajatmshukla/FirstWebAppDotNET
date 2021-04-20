@@ -5,8 +5,9 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Data;
-
+using FirstWeb.WManager;
 using MyFirstWeb.Data;
+using FirstWeb.BizEntities;
 
 namespace FirstWebApp
 {
@@ -116,6 +117,7 @@ namespace FirstWebApp
                     lblError.Text = "Invalid Employee ID";
                 }
                 Gridviewfunc();
+                
             }
             catch (Exception ex)
             {
@@ -135,19 +137,25 @@ namespace FirstWebApp
 
         protected void Gridviewfunc()
         {
-            DBHelper.defaultConnectionString = System.Configuration.ConfigurationManager.AppSettings["FirstWebDBConn"];
 
-            DataTable dt = new DataTable();
+            DeptManager deptData = new DeptManager();
+            GridView1.DataSource = deptData.GetData();
+            GridView1.DataBind();
 
-            dt = DBHelper.ExecuteQuery("select * from Emp");
-            if (dt != null)
-            {
-                if (dt.Rows.Count > 0)
-                {
-                    GridView1.DataSource = dt;
-                    GridView1.DataBind();
-                }
-            }
+            //DBHelper.defaultConnectionString = System.Configuration.ConfigurationManager.AppSettings["FirstWebDBConn"];
+
+            //DataTable dt = new DataTable();
+
+            //dt = DBHelper.ExecuteQuery("select * from Emp");
+            //if (dt != null)
+            //{
+            //    if (dt.Rows.Count > 0)
+            //    {
+            //        GridView1.DataSource = dt;
+            //        GridView1.DataBind();
+            //    }
+            //}
+
         }
 
     }

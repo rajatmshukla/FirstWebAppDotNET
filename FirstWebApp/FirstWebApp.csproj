@@ -237,6 +237,14 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\FirstWeb.BizEntities\FirstWeb.BizEntities.csproj">
+      <Project>{d70d5c01-68cb-4ccc-923b-6f871434983d}</Project>
+      <Name>FirstWeb.BizEntities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FirstWeb.WManager\FirstWeb.WManager.csproj">
+      <Project>{c2134c17-087c-41c0-9f4b-f106b1f6d1d9}</Project>
+      <Name>FirstWeb.WManager</Name>
+    </ProjectReference>
     <ProjectReference Include="..\MyFirstWeb.Data\MyFirstWeb.Data.csproj">
       <Project>{084516fe-2807-448c-ba10-1214eb691bc1}</Project>
       <Name>MyFirstWeb.Data</Name>

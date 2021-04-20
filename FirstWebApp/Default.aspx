@@ -8,7 +8,7 @@
     <asp:GridView ID="GridView1" runat="server" AutoGenerateSelectButton="True" Height="277px" OnSelectedIndexChanged="GridView1_SelectedIndexChanged" Width="1055px">
 </asp:GridView>
     <br />
-    <asp:Label ID="lblError" runat="server" Text="Label" ForeColor="#0066FF"></asp:Label>
+    <asp:Label ID="lblError" runat="server" Text="Label" ForeColor="#CC3300"></asp:Label>
 <br />
 <br />
 <asp:TextBox ID="TxtBoxEmpId" runat="server"></asp:TextBox>
