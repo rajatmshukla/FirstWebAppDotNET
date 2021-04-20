@@ -36,6 +36,9 @@
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ValueTuple.4.5.0\lib\net461\System.ValueTuple.dll</HintPath>
+    </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -64,6 +67,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -81,6 +85,10 @@
     <ProjectReference Include="..\FirstWeb.BizEntities\FirstWeb.BizEntities.csproj">
       <Project>{d70d5c01-68cb-4ccc-923b-6f871434983d}</Project>
       <Name>FirstWeb.BizEntities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FirstWeb.Logger\FirstWeb.Logger.csproj">
+      <Project>{4b85e170-3060-4be9-8be1-bd4a15ac8034}</Project>
+      <Name>FirstWeb.Logger</Name>
     </ProjectReference>
     <ProjectReference Include="..\MyFirstWeb.Data\MyFirstWeb.Data.csproj">
       <Project>{084516fe-2807-448c-ba10-1214eb691bc1}</Project>

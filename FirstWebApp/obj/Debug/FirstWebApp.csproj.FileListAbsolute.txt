@@ -234,3 +234,12 @@ C:\Users\RajatShukla\source\repos\FirstWebApp\FirstWebApp\bin\FirstWeb.WManager.
 C:\Users\RajatShukla\source\repos\FirstWebApp\FirstWebApp\bin\FirstWeb.BizEntities.pdb
 C:\Users\RajatShukla\source\repos\FirstWebApp\FirstWebApp\bin\FirstWeb.WManager.pdb
 C:\Users\RajatShukla\source\repos\FirstWebApp\FirstWebApp\bin\FirstWeb.WManager.exe.config
+C:\Users\RajatShukla\source\repos\FirstWebApp\FirstWebApp\bin\FirstWeb.Delete.exe
+C:\Users\RajatShukla\source\repos\FirstWebApp\FirstWebApp\bin\FirstWeb.Logger.exe
+C:\Users\RajatShukla\source\repos\FirstWebApp\FirstWebApp\bin\FirstWeb.Delete.pdb
+C:\Users\RajatShukla\source\repos\FirstWebApp\FirstWebApp\bin\FirstWeb.Delete.exe.config
+C:\Users\RajatShukla\source\repos\FirstWebApp\FirstWebApp\bin\FirstWeb.Logger.pdb
+C:\Users\RajatShukla\source\repos\FirstWebApp\FirstWebApp\bin\FirstWeb.Logger.exe.config
+C:\Users\RajatShukla\source\repos\FirstWebApp\FirstWebApp\bin\FirstWeb.Update.exe
+C:\Users\RajatShukla\source\repos\FirstWebApp\FirstWebApp\bin\FirstWeb.Update.pdb
+C:\Users\RajatShukla\source\repos\FirstWebApp\FirstWebApp\bin\FirstWeb.Update.exe.config

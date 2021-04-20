@@ -241,6 +241,18 @@
       <Project>{d70d5c01-68cb-4ccc-923b-6f871434983d}</Project>
       <Name>FirstWeb.BizEntities</Name>
     </ProjectReference>
+    <ProjectReference Include="..\FirstWeb.Delete\FirstWeb.Delete.csproj">
+      <Project>{c53947eb-7970-4f68-b4c2-f6b908395ee7}</Project>
+      <Name>FirstWeb.Delete</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FirstWeb.Logger\FirstWeb.Logger.csproj">
+      <Project>{4b85e170-3060-4be9-8be1-bd4a15ac8034}</Project>
+      <Name>FirstWeb.Logger</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\FirstWeb.Update\FirstWeb.Update.csproj">
+      <Project>{6db6f940-5443-42eb-9340-987c3db96d1f}</Project>
+      <Name>FirstWeb.Update</Name>
+    </ProjectReference>
     <ProjectReference Include="..\FirstWeb.WManager\FirstWeb.WManager.csproj">
       <Project>{c2134c17-087c-41c0-9f4b-f106b1f6d1d9}</Project>
       <Name>FirstWeb.WManager</Name>

@@ -12,3 +12,8 @@ C:\Users\RajatShukla\source\repos\FirstWebApp\FirstWeb.WManager\obj\Debug\FirstW
 C:\Users\RajatShukla\source\repos\FirstWebApp\FirstWeb.WManager\obj\Debug\FirstWeb.WManager.csproj.CopyComplete
 C:\Users\RajatShukla\source\repos\FirstWebApp\FirstWeb.WManager\obj\Debug\FirstWeb.WManager.exe
 C:\Users\RajatShukla\source\repos\FirstWebApp\FirstWeb.WManager\obj\Debug\FirstWeb.WManager.pdb
+C:\Users\RajatShukla\source\repos\FirstWebApp\FirstWeb.WManager\bin\Debug\System.ValueTuple.dll
+C:\Users\RajatShukla\source\repos\FirstWebApp\FirstWeb.WManager\bin\Debug\System.ValueTuple.xml
+C:\Users\RajatShukla\source\repos\FirstWebApp\FirstWeb.WManager\bin\Debug\FirstWeb.Logger.exe
+C:\Users\RajatShukla\source\repos\FirstWebApp\FirstWeb.WManager\bin\Debug\FirstWeb.Logger.pdb
+C:\Users\RajatShukla\source\repos\FirstWebApp\FirstWeb.WManager\bin\Debug\FirstWeb.Logger.exe.config

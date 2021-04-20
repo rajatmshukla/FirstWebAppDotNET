@@ -7,6 +7,7 @@ using FirstWeb.BizEntities;
 using MyFirstWeb.Data;
 using System.Configuration;
 using System.Data;
+using FirstWeb.Logger;
 
 namespace FirstWeb.WManager
 {
@@ -25,34 +26,46 @@ namespace FirstWeb.WManager
 
         public List<Emp> GetData()
         {
-
+            List<string> lst = new List<string>(); 
             DBHelper.defaultConnectionString = ConfigurationManager.AppSettings["FirstWebDBConn"];
 
+            lst.Add("GetData()" + ConfigurationManager.AppSettings["FirstWebDBConn"]);
             DataTable dt = new DataTable();
 
             dt = DBHelper.ExecuteQuery("select * from Emp");
             List<Emp> emplist = new List<Emp>();
-            if (dt != null)
+            try
             {
-                if (dt.Rows.Count > 0)
+                if (dt != null)
                 {
-                    for (int i = 0; i < dt.Rows.Count; i++)
+                    if (dt.Rows.Count > 0)
                     {
-                        Emp emps = new Emp();
-                        emps.EmpID = int.Parse(dt.Rows[i][0].ToString());
-                        emps.EmpName = dt.Rows[i][1].ToString();
-                        emps.deptno = int.Parse(dt.Rows[i][2].ToString());
-                        emps.Salary = decimal.Parse(dt.Rows[i][3].ToString());
-                        emplist.Add(emps);
-                        dept depts = new dept();
-                        depts.deptno = int.Parse(dt.Rows[i][0].ToString());
-                        depts.dname = dt.Rows[i][1].ToString();
-                        depts.loc = dt.Rows[i][2].ToString();
-                        // deptlist.Add(depts);
+                        for (int i = 0; i < dt.Rows.Count; i++)
+                        {
+                            Emp emps = new Emp();
+                            emps.EmpID = int.Parse(dt.Rows[i][0].ToString());
+                            emps.EmpName = dt.Rows[i][1].ToString();
+                            emps.deptno = int.Parse(dt.Rows[i][2].ToString());
+                            emps.Salary = decimal.Parse(dt.Rows[i][3].ToString());
+                            emplist.Add(emps);
+                            
+
+                            lst.Add(dt.Rows[i][1].ToString());
+                            System.IO.File.WriteAllLines("C:\\tempr\\File.txt", lst);
+
+                        }
                     }
                 }
             }
+            catch (Exception ex)
+            {
+                lst.Add("Catch in GetData" + ex.Message.ToString());
+                string strexc = string.Join(",", lst);
+                Logger.Logger.excep(strexc, "Exception");
+            }
             return emplist;
+
+
         }
     }
 }

@@ -1,0 +1,12 @@
+C:\Users\RajatShukla\source\repos\FirstWebApp\FirstWeb.Logger\bin\Debug\FirstWeb.Logger.exe.config
+C:\Users\RajatShukla\source\repos\FirstWebApp\FirstWeb.Logger\bin\Debug\FirstWeb.Logger.exe
+C:\Users\RajatShukla\source\repos\FirstWebApp\FirstWeb.Logger\bin\Debug\FirstWeb.Logger.pdb
+C:\Users\RajatShukla\source\repos\FirstWebApp\FirstWeb.Logger\bin\Debug\MyFirstWeb.Data.dll
+C:\Users\RajatShukla\source\repos\FirstWebApp\FirstWeb.Logger\bin\Debug\MyFirstWeb.Data.pdb
+C:\Users\RajatShukla\source\repos\FirstWebApp\FirstWeb.Logger\obj\Debug\FirstWeb.Logger.csprojAssemblyReference.cache
+C:\Users\RajatShukla\source\repos\FirstWebApp\FirstWeb.Logger\obj\Debug\FirstWeb.Logger.Properties.Resources.resources
+C:\Users\RajatShukla\source\repos\FirstWebApp\FirstWeb.Logger\obj\Debug\FirstWeb.Logger.csproj.GenerateResource.cache
+C:\Users\RajatShukla\source\repos\FirstWebApp\FirstWeb.Logger\obj\Debug\FirstWeb.Logger.csproj.CoreCompileInputs.cache
+C:\Users\RajatShukla\source\repos\FirstWebApp\FirstWeb.Logger\obj\Debug\FirstWeb.Logger.csproj.CopyComplete
+C:\Users\RajatShukla\source\repos\FirstWebApp\FirstWeb.Logger\obj\Debug\FirstWeb.Logger.exe
+C:\Users\RajatShukla\source\repos\FirstWebApp\FirstWeb.Logger\obj\Debug\FirstWeb.Logger.pdb

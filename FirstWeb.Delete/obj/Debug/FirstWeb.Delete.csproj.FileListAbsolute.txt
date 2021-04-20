@@ -1,0 +1,14 @@
+C:\Users\RajatShukla\source\repos\FirstWebApp\FirstWeb.Delete\bin\Debug\FirstWeb.Delete.exe.config
+C:\Users\RajatShukla\source\repos\FirstWebApp\FirstWeb.Delete\bin\Debug\FirstWeb.Delete.exe
+C:\Users\RajatShukla\source\repos\FirstWebApp\FirstWeb.Delete\bin\Debug\FirstWeb.Delete.pdb
+C:\Users\RajatShukla\source\repos\FirstWebApp\FirstWeb.Delete\bin\Debug\FirstWeb.BizEntities.dll
+C:\Users\RajatShukla\source\repos\FirstWebApp\FirstWeb.Delete\bin\Debug\MyFirstWeb.Data.dll
+C:\Users\RajatShukla\source\repos\FirstWebApp\FirstWeb.Delete\bin\Debug\FirstWeb.BizEntities.pdb
+C:\Users\RajatShukla\source\repos\FirstWebApp\FirstWeb.Delete\bin\Debug\MyFirstWeb.Data.pdb
+C:\Users\RajatShukla\source\repos\FirstWebApp\FirstWeb.Delete\obj\Debug\FirstWeb.Delete.csprojAssemblyReference.cache
+C:\Users\RajatShukla\source\repos\FirstWebApp\FirstWeb.Delete\obj\Debug\FirstWeb.Delete.Properties.Resources.resources
+C:\Users\RajatShukla\source\repos\FirstWebApp\FirstWeb.Delete\obj\Debug\FirstWeb.Delete.csproj.GenerateResource.cache
+C:\Users\RajatShukla\source\repos\FirstWebApp\FirstWeb.Delete\obj\Debug\FirstWeb.Delete.csproj.CoreCompileInputs.cache
+C:\Users\RajatShukla\source\repos\FirstWebApp\FirstWeb.Delete\obj\Debug\FirstWeb.Delete.csproj.CopyComplete
+C:\Users\RajatShukla\source\repos\FirstWebApp\FirstWeb.Delete\obj\Debug\FirstWeb.Delete.exe
+C:\Users\RajatShukla\source\repos\FirstWebApp\FirstWeb.Delete\obj\Debug\FirstWeb.Delete.pdb

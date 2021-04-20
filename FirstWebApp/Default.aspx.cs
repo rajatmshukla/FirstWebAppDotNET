@@ -8,6 +8,9 @@ using System.Data;
 using FirstWeb.WManager;
 using MyFirstWeb.Data;
 using FirstWeb.BizEntities;
+using FirstWeb.Delete;
+using FirstWeb.Update;
+
 
 namespace FirstWebApp
 {
@@ -15,19 +18,22 @@ namespace FirstWebApp
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-            DBHelper.defaultConnectionString = System.Configuration.ConfigurationManager.AppSettings["FirstWebDBConn"];
-            lblError.Visible = false;
-            DataTable dt = new DataTable();
+            DeptManager deptData = new DeptManager();
+            GridView1.DataSource = deptData.GetData();
+            GridView1.DataBind();
+            //DBHelper.defaultConnectionString = System.Configuration.ConfigurationManager.AppSettings["FirstWebDBConn"];
+            //lblError.Visible = false;
+            //DataTable dt = new DataTable();
 
-            dt = DBHelper.ExecuteQuery("exec SelectAllEmp");
-            if (dt != null)
-            {
-                if (dt.Rows.Count > 0)
-                {
-                    GridView1.DataSource = dt;
-                    GridView1.DataBind();
-                }
-            }
+            //dt = DBHelper.ExecuteQuery("exec SelectAllEmp");
+            //if (dt != null)
+            //{
+            //    if (dt.Rows.Count > 0)
+            //    {
+            //        GridView1.DataSource = dt;
+            //        GridView1.DataBind();
+            //    }
+            //}
 
         }
 
@@ -43,48 +49,34 @@ namespace FirstWebApp
 
         protected void Button1_Click(object sender, EventArgs e)
         {
+
             int empid = 0;
-            int icount = 0;
-            int idept = 0;
+
             int deptno = 0;
             lblError.Visible = false;
             int.TryParse(TxtBoxEmpId.Text.ToString(), out empid);
             int.TryParse(TxtBoxDept.Text.ToString(), out deptno);
+            string depttxt = TxtBoxDept.Text.ToString();
+            string emptxt = TxtBoxEmpName.Text.ToString();
+            string saltxt = TxtBoxSal.Text.ToString();
+            int i = Update.updateData(empid, deptno, depttxt, emptxt, saltxt);
             try
             {
-                icount = int.Parse(DBHelper.ExecuteScalar("SELECT [dbo].[EmpFind]('" + TxtBoxEmpId.Text + "')").ToString());
-                idept = int.Parse(DBHelper.ExecuteScalar("SELECT [dbo].[DeptFind]('" + TxtBoxDept.Text + "')").ToString());
-
-                if (icount > 0)
+                if (i == 0)
                 {
-                    if (idept > 0)
-                    {
-                        DBHelper.ExecuteNonQuery("exec EmpUpdate '" + empid + "','" + TxtBoxEmpName.Text + "'");
-                    }
-                    else
-                    {
-                        lblError.Visible = true;
-                        lblError.Text = "Invalid Department Number";
-                    }
+                    lblError.Visible = true;
+                    lblError.Text = "Invalid Department Number";
+                }
+                else if (i == 2)
+                {
+                    lblError.Visible = true;
+                    lblError.Text = "Enter Department Number";
                 }
                 else
                 {
-
-
-                    if (idept > 0)
-                    {
-                        DBHelper.ExecuteNonQuery("exec InsertEmp '" + empid + "','" + TxtBoxEmpName.Text + "','" + TxtBoxDept.Text + "', '" + TxtBoxSal.Text + "'");
-                    }
-                    else
-                    {
-                        lblError.Visible = true;
-                        lblError.Text = "Invalid Department Number";
-                    }
+                    Gridviewfunc();
                 }
-
-                Gridviewfunc();
             }
-
             catch (Exception ex)
             {
                 lblError.Visible = true;
@@ -98,26 +90,26 @@ namespace FirstWebApp
 
         protected void btnDelete_Click(object sender, EventArgs e)
         {
+
             int empid = 0;
-            int icount = 0;
-            DBHelper.defaultConnectionString = System.Configuration.ConfigurationManager.AppSettings["FirstWebDBConn"];
-            DataTable dt = new DataTable();
+            
             int.TryParse(TxtBoxEmpId.Text.ToString(), out empid);
+
+            bool datadel = Delete.Datadel(empid);
+            
             try
             {
-                icount = int.Parse(DBHelper.ExecuteScalar("select count(*) from Emp where EmpID = '" + empid + "'").ToString());
-                if (icount > 0)
+                if (datadel == true)
                 {
-                    dt = DBHelper.ExecuteQuery("exec DeleteEmp '" + empid + "'");
+                    Gridviewfunc();
                 }
 
                 else
                 {
                     lblError.Visible = true;
-                    lblError.Text = "Invalid Employee ID";
+                    lblError.Text = "Invalid Employee Id";
+
                 }
-                Gridviewfunc();
-                
             }
             catch (Exception ex)
             {
@@ -141,21 +133,6 @@ namespace FirstWebApp
             DeptManager deptData = new DeptManager();
             GridView1.DataSource = deptData.GetData();
             GridView1.DataBind();
-
-            //DBHelper.defaultConnectionString = System.Configuration.ConfigurationManager.AppSettings["FirstWebDBConn"];
-
-            //DataTable dt = new DataTable();
-
-            //dt = DBHelper.ExecuteQuery("select * from Emp");
-            //if (dt != null)
-            //{
-            //    if (dt.Rows.Count > 0)
-            //    {
-            //        GridView1.DataSource = dt;
-            //        GridView1.DataBind();
-            //    }
-            //}
-
         }
 
     }

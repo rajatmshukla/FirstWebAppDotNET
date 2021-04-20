@@ -1,0 +1,14 @@
+C:\Users\RajatShukla\source\repos\FirstWebApp\FirstWeb.Update\bin\Debug\FirstWeb.Update.exe.config
+C:\Users\RajatShukla\source\repos\FirstWebApp\FirstWeb.Update\bin\Debug\FirstWeb.Update.exe
+C:\Users\RajatShukla\source\repos\FirstWebApp\FirstWeb.Update\bin\Debug\FirstWeb.Update.pdb
+C:\Users\RajatShukla\source\repos\FirstWebApp\FirstWeb.Update\bin\Debug\FirstWeb.BizEntities.dll
+C:\Users\RajatShukla\source\repos\FirstWebApp\FirstWeb.Update\bin\Debug\MyFirstWeb.Data.dll
+C:\Users\RajatShukla\source\repos\FirstWebApp\FirstWeb.Update\bin\Debug\FirstWeb.BizEntities.pdb
+C:\Users\RajatShukla\source\repos\FirstWebApp\FirstWeb.Update\bin\Debug\MyFirstWeb.Data.pdb
+C:\Users\RajatShukla\source\repos\FirstWebApp\FirstWeb.Update\obj\Debug\FirstWeb.Update.csprojAssemblyReference.cache
+C:\Users\RajatShukla\source\repos\FirstWebApp\FirstWeb.Update\obj\Debug\FirstWeb.Update.Properties.Resources.resources
+C:\Users\RajatShukla\source\repos\FirstWebApp\FirstWeb.Update\obj\Debug\FirstWeb.Update.csproj.GenerateResource.cache
+C:\Users\RajatShukla\source\repos\FirstWebApp\FirstWeb.Update\obj\Debug\FirstWeb.Update.csproj.CoreCompileInputs.cache
+C:\Users\RajatShukla\source\repos\FirstWebApp\FirstWeb.Update\obj\Debug\FirstWeb.Update.csproj.CopyComplete
+C:\Users\RajatShukla\source\repos\FirstWebApp\FirstWeb.Update\obj\Debug\FirstWeb.Update.exe
+C:\Users\RajatShukla\source\repos\FirstWebApp\FirstWeb.Update\obj\Debug\FirstWeb.Update.pdb
