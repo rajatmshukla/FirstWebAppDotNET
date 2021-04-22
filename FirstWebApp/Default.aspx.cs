@@ -21,20 +21,6 @@ namespace FirstWebApp
             DeptManager deptData = new DeptManager();
             GridView1.DataSource = deptData.GetData();
             GridView1.DataBind();
-            //DBHelper.defaultConnectionString = System.Configuration.ConfigurationManager.AppSettings["FirstWebDBConn"];
-            //lblError.Visible = false;
-            //DataTable dt = new DataTable();
-
-            //dt = DBHelper.ExecuteQuery("exec SelectAllEmp");
-            //if (dt != null)
-            //{
-            //    if (dt.Rows.Count > 0)
-            //    {
-            //        GridView1.DataSource = dt;
-            //        GridView1.DataBind();
-            //    }
-            //}
-
         }
 
         protected void GridView1_SelectedIndexChanged(object sender, EventArgs e)

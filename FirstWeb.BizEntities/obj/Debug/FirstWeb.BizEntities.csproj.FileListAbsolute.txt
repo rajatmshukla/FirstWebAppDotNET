@@ -9,3 +9,4 @@ C:\Users\RajatShukla\source\repos\FirstWebApp\FirstWeb.BizEntities\bin\Debug\Fir
 C:\Users\RajatShukla\source\repos\FirstWebApp\FirstWeb.BizEntities\obj\Debug\FirstWeb.BizEntities.csproj.CoreCompileInputs.cache
 C:\Users\RajatShukla\source\repos\FirstWebApp\FirstWeb.BizEntities\obj\Debug\FirstWeb.BizEntities.dll
 C:\Users\RajatShukla\source\repos\FirstWebApp\FirstWeb.BizEntities\obj\Debug\FirstWeb.BizEntities.pdb
+C:\Users\RajatShukla\source\repos\FirstWebApp\FirstWeb.BizEntities\obj\Debug\FirstWeb.BizEntities.csprojAssemblyReference.cache

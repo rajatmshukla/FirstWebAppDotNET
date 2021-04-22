@@ -6,7 +6,7 @@ using System.Windows.Forms;
 using MyFirstWeb.Data;
 namespace FirstWeb.Logger
 {
-    public static class Logger
+    public class Logger
     {
         /// <summary>
         /// The main entry point for the application.

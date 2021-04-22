@@ -16,7 +16,7 @@
     <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="TxtBoxEmpId" ErrorMessage="ID Cannot Be Empty" ForeColor="Red"></asp:RequiredFieldValidator>
 &nbsp;
 <br />
-<asp:TextBox ID="TxtBoxEmpName" runat="server" MaxLength="50"></asp:TextBox>
+<asp:TextBox ID="TxtBoxEmpName" runat="server"></asp:TextBox>
 &nbsp;&nbsp;
     <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="TxtBoxEmpName" ErrorMessage="Employee Name Should Not Be Empty" ForeColor="Red"></asp:RequiredFieldValidator>
     &nbsp;<asp:RegularExpressionValidator ID="RegularExpressionValidator1" runat="server" ControlToValidate="TxtBoxEmpName" ErrorMessage="Only Characters Allowed" ForeColor="Red" ValidationExpression="[a-zA-Z ]*$"></asp:RegularExpressionValidator>

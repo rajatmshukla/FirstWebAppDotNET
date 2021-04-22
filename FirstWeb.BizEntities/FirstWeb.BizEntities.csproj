@@ -43,6 +43,7 @@
   <ItemGroup>
     <Compile Include="dept.cs" />
     <Compile Include="Emp.cs" />
+    <Compile Include="EmpOG.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

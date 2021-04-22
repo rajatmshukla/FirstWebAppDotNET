@@ -28,10 +28,12 @@ namespace FirstWeb.Delete
             int icount = 0;
             DBHelper.defaultConnectionString = System.Configuration.ConfigurationManager.AppSettings["FirstWebDBConn"];
             DataTable dt = new DataTable();
+          
                 icount = int.Parse(DBHelper.ExecuteScalar("select count(*) from Emp where EmpID = '" + empid + "'").ToString());
                 if (icount > 0)
                 {
                     dt = DBHelper.ExecuteQuery("exec DeleteEmp '" + empid + "'");
+                    
                 return true;
                 }
 

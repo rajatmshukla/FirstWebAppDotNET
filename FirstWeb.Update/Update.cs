@@ -12,7 +12,7 @@ namespace FirstWeb.Update
 {
     public static class Update
     {
-        /// <summary>
+        /// <summary>  
         /// The main entry point for the application.
         /// </summary>
         [STAThread]
@@ -59,7 +59,8 @@ namespace FirstWeb.Update
 
                     if (idept > 0)
                     {
-                        DBHelper.ExecuteNonQuery("exec InsertEmp '" + empid + "', '" + emptxt + "', '" + depttxt + "', '" + saltxt + "'");
+                        DBHelper.ExecuteNonQuery("insert into Emp(EmpID, EmpName, deptno, salary) values('" + empid + "', '" + emptxt + "', '" + depttxt + "', '" + saltxt + "')");
+                        DBHelper.ExecuteNonQuery("insert into EmpOG(EmpID, EmpName, deptno, salary) values('" + empid + "', '" + emptxt + "', '" + depttxt + "', '" + saltxt + "')");
                         return (1);
                     }
                     else
